@@ -1,0 +1,10 @@
+[package]
+name = "bin_patterns"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lib_oops_pattern = { path = "../lib_oops_pattern" }
+lib_object_trait_pattern = { path = "../lib_object_trait_pattern" }

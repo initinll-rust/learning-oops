@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "bin_patterns",
+    "lib_oops_pattern",
+    "lib_object_trait_pattern"
+]
+
+[workspace.package]
+version = "1.0.0"
+authors = ["initinll"]
+description = "A short description of my package"
+documentation = "https://example.com/bar"
+
+[workspace.dependencies]
